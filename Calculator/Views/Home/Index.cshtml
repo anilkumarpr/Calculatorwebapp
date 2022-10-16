@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @*<h1 class="display-4 mb-4">Welcome to CSR4 calculator...Let's add</h1>*@
+    <h1> Welcome to csr4 calculator...lets add </h1>
+    <div class="row">
+        <div class="col-md-4">
+            <input type="number" id="num1" name="num1" class="field" onchange="handleInput()" placeholder="A" />
+        </div>
+        <div class="col-md-1">
+            <div class="operator d-flex align-items-end justify-content-center">+</div>
+        </div>
+        <div class="col-md-4">
+            <input type="number" id="num2" name="num2" class="field" onchange="handleInput()" placeholder="B"/>
+        </div>
+        <div class="col-md-1">
+            <div class="operator d-flex align-items-end justify-content-center">=</div>
+        </div>
+        <div class="col-md-2">
+            <input type="number" id="num3" name="num3" class="field" placeholder="C" disabled />
+        </div>
+    </div>
+</div>

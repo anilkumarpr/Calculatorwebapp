@@ -1,0 +1,89 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    /*background-image: -webkit-gradient(linear, left bottom, right top, from(#6d327c), color-stop(#485DA6), color-stop(#00a1ba), color-stop(#00BF98), to(#36C486));
+    background-image: -webkit-linear-gradient(left bottom, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);
+    background-image: -o-linear-gradient(left bottom, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);
+    background-image: linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);*/
+}
+
+    .container {
+    height: 100%
+}
+
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-4 {
+    font-size: 2.525em;
+    letter-spacing: 0.093em;
+    text-shadow: 2px 3px 0px #898999;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+}
+
+input {
+    /*background-color: rgb(132, 94, 194);
+    color: rgb(221, 221, 221);
+    border-color: transparent;*/
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    border-radius: 50px;
+    /*-webkit-box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
+    box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);*/
+    letter-spacing: 0.094em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+     margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.operator {
+    font-size: 2.525em;
+    letter-spacing: 0.093em;
+    /*text-shadow: 2px 3px 0px #898999;*/
+    text-transform: uppercase;
+    font-weight: 900;
+    height: 50px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255 255 255 / 33%);
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(255 255 255 / 33%);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(255 255 255 / 33%);
+}

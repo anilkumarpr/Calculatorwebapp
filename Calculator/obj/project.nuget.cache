@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wHw8yrtOQgszqtTkwwGH7s86eRfBPcKasJF7K86EiU5EsJy/hbkH2Ubl4tP8do3I0BODRxTNdK6tmtBMDOR7JA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sonuk\\Desktop\\Calculator\\Calculator\\Calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sonuk\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512"
+  ],
+  "logs": []
+}
